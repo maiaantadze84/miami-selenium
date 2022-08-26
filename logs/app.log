@@ -1,0 +1,119 @@
+2022-08-26 00:39:34.436 [main][1511] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+2022-08-26 00:39:34.441 [main][1516] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2022-08-26 00:39:34.441 [main][1516] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2022-08-26 00:39:34.443 [main][1518] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4248b963
+2022-08-26 00:39:34.453 [main][1528] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2022-08-26 00:39:34.454 [main][1529] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 18
+2022-08-26 00:39:34.454 [main][1529] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2022-08-26 00:39:34.455 [main][1530] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2022-08-26 00:39:34.455 [main][1530] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2022-08-26 00:39:34.455 [main][1530] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2022-08-26 00:39:34.456 [main][1531] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-08-26 00:39:34.456 [main][1531] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2022-08-26 00:39:34.457 [main][1532] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @12efa456
+2022-08-26 00:39:34.459 [main][1534] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-08-26 00:39:34.459 [main][1534] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2022-08-26 00:39:34.460 [main][1535] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 2147483648 bytes (maybe)
+2022-08-26 00:39:34.460 [main][1535] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/dz/nktnvjm95hz7q6bq1chffsgm0000gn/T (java.io.tmpdir)
+2022-08-26 00:39:34.460 [main][1535] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-08-26 00:39:34.460 [main][1535] DEBUG io.netty.util.internal.PlatformDependent - Platform: MacOS
+2022-08-26 00:39:34.460 [main][1535] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2022-08-26 00:39:34.460 [main][1535] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-08-26 00:39:34.461 [main][1536] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2022-08-26 00:39:34.461 [main][1536] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2022-08-26 00:39:34.465 [main][1540] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2022-08-26 00:39:34.480 [main][1555] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-08-26 00:39:34.480 [main][1555] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-08-26 00:39:34.489 [main][1564] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-08-26 00:39:34.490 [main][1565] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-08-26 00:39:34.507 [main][1582] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 32
+2022-08-26 00:39:34.514 [main][1589] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2022-08-26 00:39:34.514 [main][1589] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-08-26 00:39:34.534 [main][1609] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 32
+2022-08-26 00:39:34.534 [main][1609] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 32
+2022-08-26 00:39:34.534 [main][1609] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2022-08-26 00:39:34.534 [main][1609] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2022-08-26 00:39:34.534 [main][1609] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2022-08-26 00:39:34.534 [main][1609] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2022-08-26 00:39:34.534 [main][1609] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2022-08-26 00:39:34.534 [main][1609] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-08-26 00:39:34.534 [main][1609] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-08-26 00:39:34.534 [main][1609] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-08-26 00:39:34.534 [main][1609] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-08-26 00:39:34.534 [main][1609] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-08-26 00:39:34.543 [main][1618] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2022-08-26 00:39:34.543 [main][1618] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-08-26 00:39:34.543 [main][1618] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-08-26 00:39:34.715 [Forwarding newSession on session null to remote][1790] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 3991 (auto-detected)
+2022-08-26 00:39:34.717 [Forwarding newSession on session null to remote][1792] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2022-08-26 00:39:34.717 [Forwarding newSession on session null to remote][1792] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2022-08-26 00:39:34.721 [Forwarding newSession on session null to remote][1796] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+2022-08-26 00:39:34.721 [Forwarding newSession on session null to remote][1796] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2022-08-26 00:39:34.723 [Forwarding newSession on session null to remote][1798] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 88:66:5a:ff:fe:39:9c:5e (auto-detected)
+2022-08-26 00:39:34.763 [AsyncHttpClient-1-2][1838] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2022-08-26 00:39:34.763 [AsyncHttpClient-1-2][1838] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2022-08-26 00:39:34.763 [AsyncHttpClient-1-2][1838] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@50fdd98c
+2022-08-26 00:39:34.774 [AsyncHttpClient-1-2][1849] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-08-26 00:39:34.774 [AsyncHttpClient-1-2][1849] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2022-08-26 00:39:34.774 [AsyncHttpClient-1-2][1849] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2022-08-26 00:39:34.775 [AsyncHttpClient-1-2][1850] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2022-08-26 00:39:35.827 [AsyncHttpClient-1-2][2902] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-08-26 00:39:35.934 [main][3009] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x4ee6c08072bd1e5c
+2022-08-26 00:39:35.988 [main][3063] INFO  automation_test.mortgage_calculator.CalculateMortgageRate - -------------Test Name: Calculate Monthly Payment---------------
+2022-08-26 00:39:38.466 [main][5541] INFO  utillities.SqlConnector - Successfully connected to the Database
+2022-08-26 00:39:38.491 [main][5566] DEBUG page_object.Home - Typing Home Value: 300000
+2022-08-26 00:39:38.597 [main][5672] DEBUG page_object.Home - Clicking on the $ radio button: 
+2022-08-26 00:39:38.630 [main][5705] DEBUG page_object.Home - Typing DownPayment Value: 60000
+2022-08-26 00:39:38.698 [main][5773] DEBUG page_object.Home - Typing the loan amount: 240000
+2022-08-26 00:39:38.752 [main][5827] DEBUG page_object.Home - Typing the interest rate: 3
+2022-08-26 00:39:38.814 [main][5889] DEBUG page_object.Home - Typing the LoanTerm:30
+2022-08-26 00:39:38.868 [main][5943] DEBUG page_object.Home - Select the start date month: Sep
+2022-08-26 00:39:38.868 [main][5943] DEBUG page_object.Home - Typing the loan start year:2022
+2022-08-26 00:39:38.924 [main][5999] DEBUG page_object.Home - Typing the Property Tax:5000
+2022-08-26 00:39:38.978 [main][6053] DEBUG page_object.Home - Type the PMI:0.5
+2022-08-26 00:39:39.033 [main][6108] DEBUG page_object.Home - Typing the Home Owner Insurance: 1000
+2022-08-26 00:39:39.086 [main][6161] DEBUG page_object.Home - Typing the Monthly HOA: 100
+2022-08-26 00:39:39.141 [main][6216] DEBUG page_object.Home - Selecting loan type: FHA
+2022-08-26 00:39:39.191 [main][6266] DEBUG page_object.Home - Selecting Buy Option: Buy
+2022-08-26 00:39:39.216 [main][6291] DEBUG page_object.Home - Clicking on Calculate Button:
+2022-08-26 00:39:40.036 [main][7111] DEBUG page_object.Home - Validating Total Monthly Payment is: 1,611.85
+2022-08-26 00:39:40.178 [main][7253] INFO  automation_test.mortgage_calculator.CalculateMortgageRate - --------End Test Case: Calculate Monthly Payment------
+2022-08-26 00:39:41.001 [main][8076] INFO  automation_test.mortgage_calculator.CalculateRealAprRate - -------------Test Name: Calculate Real APR---------------
+2022-08-26 00:39:43.192 [main][10267] DEBUG page_object.NavigationBar - Mouse Hover To the rates Link
+2022-08-26 00:39:43.315 [main][10390] DEBUG page_object.NavigationBar - Clicking on the Real APR Link
+2022-08-26 00:39:43.898 [main][10973] DEBUG page_object.RealApr - waiting to the Page to load:
+2022-08-26 00:39:43.918 [main][10993] DEBUG page_object.RealApr - Typing Home value: 200000
+2022-08-26 00:39:43.987 [main][11062] DEBUG page_object.RealApr - Clicking on the $ as down payment:
+2022-08-26 00:39:44.019 [main][11094] DEBUG page_object.RealApr - typing the down payment value:15000
+2022-08-26 00:39:44.078 [main][11153] DEBUG page_object.RealApr - typing Interest Rate Value:3
+2022-08-26 00:39:44.129 [main][11204] DEBUG page_object.RealApr - click on calculate button:
+2022-08-26 00:39:45.007 [main][12082] DEBUG page_object.RealApr - Validate the Real APR Rate is:3.130%
+2022-08-26 00:39:45.130 [main][12205] INFO  automation_test.mortgage_calculator.CalculateRealAprRate - --------End Test Case: Calculate Real APR------
+2022-08-26 00:39:47.575 [main][14650] INFO  api_test.SimpleGetTest - -------API Test: Get All Users---------
+2022-08-26 00:39:48.701 [main][15776] DEBUG api_test.SimpleGetTest - {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2022-08-26 00:39:48.985 [main][16060] INFO  api_test.SimpleGetTest - ---------End Test: Get All Users-------------
+2022-08-26 00:39:48.988 [main][16063] INFO  api_test.SimplePatchTest - ----------API Test: Update user's single field------------
+2022-08-26 00:39:49.038 [main][16113] DEBUG api_test.SimplePatchTest - Job is:Regional Marketing Executive
+2022-08-26 00:39:49.395 [main][16470] DEBUG api_test.SimplePatchTest - {"job":"Regional Marketing Executive","updatedAt":"2022-08-26T04:39:49.375Z"}
+2022-08-26 00:39:49.403 [main][16478] INFO  api_test.SimplePatchTest - ---------End Test: Update user's single field---------
+2022-08-26 00:39:49.404 [main][16479] INFO  api_test.SimplePutTest - ----------API Test: Update existing user------------
+2022-08-26 00:39:49.441 [main][16516] DEBUG api_test.SimplePutTest - Name is :Columbus Hills
+2022-08-26 00:39:49.441 [main][16516] DEBUG api_test.SimplePutTest - Job is:Legal Consultant
+2022-08-26 00:39:49.890 [main][16965] DEBUG api_test.SimplePutTest - {"name":"Columbus Hills","job":"Legal Consultant","updatedAt":"2022-08-26T04:39:49.760Z"}
+2022-08-26 00:39:49.896 [main][16971] INFO  api_test.SimplePutTest - ---------End Test: Update existing user---------
+2022-08-26 00:39:49.897 [main][16972] INFO  api_test.SimplePostTest - ----------API Test: Create new user------------
+2022-08-26 00:39:49.919 [main][16994] DEBUG api_test.SimplePostTest - Name is :Sunshine Reinger Sr.
+2022-08-26 00:39:49.920 [main][16995] DEBUG api_test.SimplePostTest - Job is:Forward Mining Technician
+2022-08-26 00:39:50.251 [main][17326] DEBUG api_test.SimplePostTest - {"name":"Sunshine Reinger Sr.","job":"Forward Mining Technician","id":"800","createdAt":"2022-08-26T04:39:50.234Z"}
+2022-08-26 00:39:50.257 [main][17332] INFO  api_test.SimplePostTest - -------------End Test: Create new user-----------
+2022-08-26 00:39:50.258 [main][17333] INFO  api_test.SimpleDeleteTest - ----------API Test: delete single User------------
+2022-08-26 00:39:50.607 [main][17682] INFO  api_test.SimpleDeleteTest - -----------End Test: delete single user-------------
+2022-08-26 00:39:50.608 [main][17683] INFO  api_test.GetWithPathVariable - ----------API Test: Attempt To Get User With Invalid Id------------
+2022-08-26 00:39:51.016 [main][18091] DEBUG api_test.GetWithPathVariable - {}
+2022-08-26 00:39:51.016 [main][18091] INFO  api_test.GetWithPathVariable - -----------End Test: Attempt To Get User With Invalid Id-------------
+2022-08-26 00:39:51.018 [main][18093] INFO  api_test.GetWithPathVariable - ----------API Test: Get single User------------
+2022-08-26 00:39:51.098 [main][18173] DEBUG api_test.GetWithPathVariable - {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2022-08-26 00:39:51.104 [main][18179] INFO  api_test.GetWithPathVariable - -----------End Test: Get single user-------------
+2022-08-26 00:39:51.106 [main][18181] INFO  api_test.GetTestWithQueryParameter - ---------API Test: Get All Users Query Parameter---------
+2022-08-26 00:39:51.529 [main][18604] DEBUG api_test.GetTestWithQueryParameter - {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2022-08-26 00:39:51.538 [main][18613] INFO  api_test.GetTestWithQueryParameter - -----------End test: Get All Users With Query Parameter-----------
