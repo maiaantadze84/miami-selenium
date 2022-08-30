@@ -9,22 +9,37 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">test_automation</th></tr>
-<tr><td><a href="#t0">MortgageCalculator</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">14,072</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">APITest</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3,574</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">10</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">17,646</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">MortgageCalculator</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">94</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">test_automation</th></tr></tbody><tbody id="t0"><tr><th colspan="4">MortgageCalculator &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">automation_test.mortgage_calculator.CalculateMortgageRate</td><td><a href="#m0">calculateMonthlyPayment</a></td><td rowspan="1">1661813543436</td><td rowspan="1">2327</td></tr><tr class="passedodd"><td rowspan="1">automation_test.mortgage_calculator.CalculateRealAprRate</td><td><a href="#m1">calculateRealApr</a></td><td rowspan="1">1661813549409</td><td rowspan="1">2326</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">APITest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">api_test.GetTestWithQueryParameter</td><td><a href="#m2">getUsersWithQueryParameter</a></td><td rowspan="1">1661813555366</td><td rowspan="1">108</td></tr><tr class="passedodd"><td rowspan="2">api_test.GetWithPathVariable</td><td><a href="#m3">attemptToGetUserWithInvalidId</a></td><td rowspan="1">1661813554877</td><td rowspan="1">361</td></tr><tr class="passedodd"><td><a href="#m4">getSingleUser</a></td><td rowspan="1">1661813555240</td><td rowspan="1">124</td></tr><tr class="passedeven"><td rowspan="1">api_test.SimpleDeleteTest</td><td><a href="#m5">deleteSingleUser</a></td><td rowspan="1">1661813554526</td><td rowspan="1">349</td></tr><tr class="passedodd"><td rowspan="1">api_test.SimpleGetTest</td><td><a href="#m6">getAllUsers</a></td><td rowspan="1">1661813551904</td><td rowspan="1">956</td></tr><tr class="passedeven"><td rowspan="1">api_test.SimplePatchTest</td><td><a href="#m7">UpdateNewUser</a></td><td rowspan="1">1661813553607</td><td rowspan="1">485</td></tr><tr class="passedodd"><td rowspan="1">api_test.SimplePostTest</td><td><a href="#m8">createNewUser</a></td><td rowspan="1">1661813552863</td><td rowspan="1">742</td></tr><tr class="passedeven"><td rowspan="1">api_test.SimplePutTest</td><td><a href="#m9">UpdateNewUser</a></td><td rowspan="1">1661813554149</td><td rowspan="1">375</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">test_automation</th></tr></tbody><tbody id="t0"><tr><th colspan="4">MortgageCalculator &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">automation_test.mortgage_calculator.CalculateRealAprRate</td><td><a href="#m0">addThread</a></td><td rowspan="1">1661830920974</td><td rowspan="1">18</td></tr><tr><th colspan="4">MortgageCalculator &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="2">automation_test.mortgage_calculator.CalculateRealAprRate</td><td><a href="#m1">closeBrowser</a></td><td rowspan="1">1661830921054</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">openBrowser</a></td><td rowspan="1">1661830921045</td><td rowspan="1">0</td></tr><tr><th colspan="4">MortgageCalculator &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">automation_test.mortgage_calculator.CalculateRealAprRate</td><td><a href="#m3">calculateRealApr</a></td><td rowspan="1">1661830921051</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>MortgageCalculator</h2><h3 id="m0">automation_test.mortgage_calculator.CalculateMortgageRate#calculateMonthlyPayment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">automation_test.mortgage_calculator.CalculateRealAprRate#calculateRealApr</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>200000</td><td>15000</td><td>3</td><td>3.130%</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>APITest</h2><h3 id="m2">api_test.GetTestWithQueryParameter#getUsersWithQueryParameter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">api_test.GetWithPathVariable#attemptToGetUserWithInvalidId</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">api_test.GetWithPathVariable#getSingleUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">api_test.SimpleDeleteTest#deleteSingleUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">api_test.SimpleGetTest#getAllUsers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">api_test.SimplePatchTest#UpdateNewUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">api_test.SimplePostTest#createNewUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">api_test.SimplePutTest#UpdateNewUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MortgageCalculator</h2><h3 id="m0">automation_test.mortgage_calculator.CalculateRealAprRate#addThread</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Server URL must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+	at utillities.DriverFactory.lambda$new$0(DriverFactory.java:46)
+	at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:305)
+	at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:195)
+	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)
+	at utillities.DriverFactory.getDriver(DriverFactory.java:53)
+	at automation_test.BaseUIClass.addThread(BaseUIClass.java:24)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 8 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">automation_test.mortgage_calculator.CalculateRealAprRate#closeBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">automation_test.mortgage_calculator.CalculateRealAprRate#openBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">automation_test.mortgage_calculator.CalculateRealAprRate#calculateRealApr</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>200000</td><td>15000</td><td>3</td><td>3.130%</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">java.lang.IllegalArgumentException: Server URL must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+	at utillities.DriverFactory.lambda$new$0(DriverFactory.java:46)
+	at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:305)
+	at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:195)
+	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)
+	at utillities.DriverFactory.getDriver(DriverFactory.java:53)
+	at automation_test.BaseUIClass.addThread(BaseUIClass.java:24)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 8 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

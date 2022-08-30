@@ -6,9 +6,11 @@ data/DataStore.class
 command_provider/ElementAssertions.class
 utillities/DateUtils.class
 command_provider/ActOn.class
+selenium_grid/SeleniumGrid_Test3.class
 api_test/SimplePatchTest.class
 api_test/GetWithPathVariable.class
 utillities/LoadConfigFiles.class
+selenium_grid/Selenium_Test1.class
 utillities/SqlConnector.class
 automation_test/mortgage_calculator/CalculateRealAprRate.class
 playGround/TestNgMavenExampleTest.class
@@ -18,6 +20,7 @@ command_provider/AssertThat.class
 automation_test/mortgage_calculator/CalculateMortgageRate.class
 command_provider/WaitFor.class
 command_provider/BrowserActions.class
+selenium_grid/SeleniumGrid_Test2.class
 page_object/NavigationBar.class
 page_object/Home.class
 command_provider/ElementActions.class

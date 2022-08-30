@@ -9,6 +9,7 @@
 /Users/maiaantadze/QA Tek Solution/Selenium2022/src/test/java/automation_test/php_travel/TestNGWebDriver.java
 /Users/maiaantadze/QA Tek Solution/Selenium2022/src/test/java/api_test/SimplePostTest.java
 /Users/maiaantadze/QA Tek Solution/Selenium2022/src/test/java/utillities/ReadConfigFiles.java
+/Users/maiaantadze/QA Tek Solution/Selenium2022/src/test/java/selenium_grid/SeleniumGrid_Test2.java
 /Users/maiaantadze/QA Tek Solution/Selenium2022/src/test/java/playGround/TestNgMavenExampleTest.java
 /Users/maiaantadze/QA Tek Solution/Selenium2022/src/test/java/automation_test/BaseUIClass.java
 /Users/maiaantadze/QA Tek Solution/Selenium2022/src/test/java/command_provider/BrowserActions.java
@@ -22,7 +23,9 @@
 /Users/maiaantadze/QA Tek Solution/Selenium2022/src/test/java/utillities/SqlConnector.java
 /Users/maiaantadze/QA Tek Solution/Selenium2022/src/test/java/command_provider/WaitFor.java
 /Users/maiaantadze/QA Tek Solution/Selenium2022/src/test/java/api_test/SimplePutTest.java
+/Users/maiaantadze/QA Tek Solution/Selenium2022/src/test/java/selenium_grid/SeleniumGrid_Test3.java
 /Users/maiaantadze/QA Tek Solution/Selenium2022/src/test/java/automation_test/mortgage_calculator/CalculateMortgageRate.java
+/Users/maiaantadze/QA Tek Solution/Selenium2022/src/test/java/selenium_grid/Selenium_Test1.java
 /Users/maiaantadze/QA Tek Solution/Selenium2022/src/test/java/utillities/ScreenCapture.java
 /Users/maiaantadze/QA Tek Solution/Selenium2022/src/test/java/api_test/GetWithPathVariable.java
 /Users/maiaantadze/QA Tek Solution/Selenium2022/src/test/java/command_provider/AssertThat.java
