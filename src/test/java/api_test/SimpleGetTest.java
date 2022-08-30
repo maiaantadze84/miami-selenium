@@ -1,25 +1,18 @@
 package api_test;
 
-import automation_test.mortgage_calculator.CalculateMortgageRate;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class SimpleGetTest {
-    private static final Logger LOGGER = LogManager.getLogger(SimpleGetTest.class);
-
+public class SimpleGetTest extends BaseAPIClass{
     @Test
     public void getAllUsers(){
-        LOGGER.info("-------API Test: Get All Users---------");
-
         //Specify  the base URL or Endpoint of the Rest API
         RestAssured.baseURI="https://reqres.in/api/users/";
 
@@ -42,7 +35,5 @@ public class SimpleGetTest {
         String emailId = "george.bluth@reqres.in";
         boolean emailExist = list.contains(emailId);
         Assert.assertTrue(emailExist,emailId+"does not exist");
-
-        LOGGER.info("---------End Test: Get All Users-------------");
     }
 }

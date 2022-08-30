@@ -5,20 +5,14 @@ import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class GetTestWithQueryParameter {
-    private static final Logger LOGGER = LogManager.getLogger(GetTestWithQueryParameter.class);
-
+public class GetTestWithQueryParameter extends BaseAPIClass{
     @Test
     public void getUsersWithQueryParameter() {
-        LOGGER.info("---------API Test: Get All Users Query Parameter---------");
-
         RestAssured.baseURI = "https://reqres.in/api/users/";
 
         RequestSpecification httpRequest = RestAssured.given();
@@ -36,8 +30,5 @@ public class GetTestWithQueryParameter {
         boolean emailExist = list.contains(emailId);
 
         Assert.assertTrue(emailExist,emailId + "dose not exist");
-
-        LOGGER.info("-----------End test: Get All Users With Query Parameter-----------");
     }
-
 }

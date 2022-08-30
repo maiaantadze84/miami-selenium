@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-26T00:39:33 EDT" name="test_automation" finished-at="2022-08-26T00:39:51 EDT" duration-ms="17806">
+  <suite started-at="2022-08-29T18:52:17 EDT" name="test_automation" finished-at="2022-08-29T18:52:35 EDT" duration-ms="17653">
     <groups>
     </groups>
-    <test started-at="2022-08-26T00:39:33 EDT" name="mortgage_calculator" finished-at="2022-08-26T00:39:45 EDT" duration-ms="11399">
+    <test started-at="2022-08-29T18:52:17 EDT" name="MortgageCalculator" finished-at="2022-08-29T18:52:31 EDT" duration-ms="14072">
       <class name="automation_test.mortgage_calculator.CalculateMortgageRate">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation_test.mortgage_calculator.CalculateMortgageRate@1f2f9244]" started-at="2022-08-26T00:39:33 EDT" name="openBrowser" finished-at="2022-08-26T00:39:38 EDT" duration-ms="4485" status="PASS">
+        <test-method is-config="true" signature="addThread()[pri:0, instance:automation_test.mortgage_calculator.CalculateMortgageRate@7446d8d5]" started-at="2022-08-29T18:52:17 EDT" name="addThread" finished-at="2022-08-29T18:52:19 EDT" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addThread -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation_test.mortgage_calculator.CalculateMortgageRate@7446d8d5]" started-at="2022-08-29T18:52:19 EDT" name="openBrowser" finished-at="2022-08-29T18:52:23 EDT" duration-ms="4326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="calculateMonthlyPayment()[pri:0, instance:automation_test.mortgage_calculator.CalculateMortgageRate@1f2f9244]" started-at="2022-08-26T00:39:38 EDT" name="calculateMonthlyPayment" finished-at="2022-08-26T00:39:40 EDT" duration-ms="1777" status="PASS">
+        <test-method signature="calculateMonthlyPayment()[pri:0, instance:automation_test.mortgage_calculator.CalculateMortgageRate@7446d8d5]" started-at="2022-08-29T18:52:23 EDT" name="calculateMonthlyPayment" finished-at="2022-08-29T18:52:25 EDT" duration-ms="2327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calculateMonthlyPayment -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:automation_test.mortgage_calculator.CalculateMortgageRate@1f2f9244]" started-at="2022-08-26T00:39:40 EDT" name="closeBrowser" finished-at="2022-08-26T00:39:40 EDT" duration-ms="109" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=calculateMonthlyPayment status=SUCCESS method=CalculateMortgageRate.calculateMonthlyPayment()[pri:0, instance:automation_test.mortgage_calculator.CalculateMortgageRate@1f2f9244] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation_test.mortgage_calculator.CalculateMortgageRate@7446d8d5]" started-at="2022-08-29T18:52:25 EDT" name="closeBrowser" finished-at="2022-08-29T18:52:25 EDT" duration-ms="164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- automation_test.mortgage_calculator.CalculateMortgageRate -->
       <class name="automation_test.mortgage_calculator.CalculateRealAprRate">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation_test.mortgage_calculator.CalculateRealAprRate@5974109]" started-at="2022-08-26T00:39:40 EDT" name="openBrowser" finished-at="2022-08-26T00:39:43 EDT" duration-ms="3004" status="PASS">
+        <test-method is-config="true" signature="addThread()[pri:0, instance:automation_test.mortgage_calculator.CalculateRealAprRate@354fc8f0]" started-at="2022-08-29T18:52:25 EDT" name="addThread" finished-at="2022-08-29T18:52:26 EDT" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addThread -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation_test.mortgage_calculator.CalculateRealAprRate@354fc8f0]" started-at="2022-08-29T18:52:26 EDT" name="openBrowser" finished-at="2022-08-29T18:52:29 EDT" duration-ms="2695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="calculateRealApr(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:automation_test.mortgage_calculator.CalculateRealAprRate@5974109]" started-at="2022-08-26T00:39:43 EDT" name="calculateRealApr" data-provider="RealAprRates" finished-at="2022-08-26T00:39:45 EDT" duration-ms="1835" status="PASS">
+        <test-method signature="calculateRealApr(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:automation_test.mortgage_calculator.CalculateRealAprRate@354fc8f0]" started-at="2022-08-29T18:52:29 EDT" name="calculateRealApr" data-provider="RealAprRates" finished-at="2022-08-29T18:52:31 EDT" duration-ms="2326" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,88 +59,150 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calculateRealApr -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:automation_test.mortgage_calculator.CalculateRealAprRate@5974109]" started-at="2022-08-26T00:39:45 EDT" name="closeBrowser" finished-at="2022-08-26T00:39:45 EDT" duration-ms="106" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=calculateRealApr status=SUCCESS method=CalculateRealAprRate.calculateRealApr(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:automation_test.mortgage_calculator.CalculateRealAprRate@5974109] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation_test.mortgage_calculator.CalculateRealAprRate@354fc8f0]" started-at="2022-08-29T18:52:31 EDT" name="closeBrowser" finished-at="2022-08-29T18:52:31 EDT" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- automation_test.mortgage_calculator.CalculateRealAprRate -->
-    </test> <!-- mortgage_calculator -->
-    <test started-at="2022-08-26T00:39:45 EDT" name="PHPTravel" finished-at="2022-08-26T00:39:47 EDT" duration-ms="2431">
-      <class name="automation_test.php_travel.TestNGWebDriver">
-        <test-method is-config="true" signature="browserInitialization()[pri:0, instance:automation_test.php_travel.TestNGWebDriver@749c877b]" started-at="2022-08-26T00:39:45 EDT" name="browserInitialization" finished-at="2022-08-26T00:39:47 EDT" duration-ms="2314" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialization -->
-        <test-method signature="VerifyHomePageTitle()[pri:0, instance:automation_test.php_travel.TestNGWebDriver@749c877b]" started-at="2022-08-26T00:39:47 EDT" name="VerifyHomePageTitle" finished-at="2022-08-26T00:39:47 EDT" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyHomePageTitle -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:automation_test.php_travel.TestNGWebDriver@749c877b]" started-at="2022-08-26T00:39:47 EDT" name="closeBrowser" finished-at="2022-08-26T00:39:47 EDT" duration-ms="110" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=VerifyHomePageTitle status=SUCCESS method=TestNGWebDriver.VerifyHomePageTitle()[pri:0, instance:automation_test.php_travel.TestNGWebDriver@749c877b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- automation_test.php_travel.TestNGWebDriver -->
-    </test> <!-- PHPTravel -->
-    <test started-at="2022-08-26T00:39:47 EDT" name="APITest" finished-at="2022-08-26T00:39:51 EDT" duration-ms="3965">
+    </test> <!-- MortgageCalculator -->
+    <test started-at="2022-08-29T18:52:31 EDT" name="APITest" finished-at="2022-08-29T18:52:35 EDT" duration-ms="3574">
       <class name="api_test.SimplePostTest">
-        <test-method signature="createNewUser()[pri:0, instance:api_test.SimplePostTest@1dd0e7c4]" started-at="2022-08-26T00:39:49 EDT" name="createNewUser" finished-at="2022-08-26T00:39:50 EDT" duration-ms="360" status="PASS">
+        <test-method is-config="true" signature="addThread()[pri:0, instance:api_test.SimplePostTest@2ece4966]" started-at="2022-08-29T18:52:32 EDT" name="addThread" finished-at="2022-08-29T18:52:32 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addThread -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:api_test.SimplePostTest@2ece4966]" started-at="2022-08-29T18:52:32 EDT" name="openBrowser" finished-at="2022-08-29T18:52:32 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="createNewUser()[pri:0, instance:api_test.SimplePostTest@2ece4966]" started-at="2022-08-29T18:52:32 EDT" name="createNewUser" finished-at="2022-08-29T18:52:33 EDT" duration-ms="742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:api_test.SimplePostTest@2ece4966]" started-at="2022-08-29T18:52:33 EDT" name="closeBrowser" finished-at="2022-08-29T18:52:33 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- api_test.SimplePostTest -->
       <class name="api_test.SimpleGetTest">
-        <test-method signature="getAllUsers()[pri:0, instance:api_test.SimpleGetTest@388ba540]" started-at="2022-08-26T00:39:47 EDT" name="getAllUsers" finished-at="2022-08-26T00:39:48 EDT" duration-ms="1411" status="PASS">
+        <test-method is-config="true" signature="addThread()[pri:0, instance:api_test.SimpleGetTest@47605f2f]" started-at="2022-08-29T18:52:31 EDT" name="addThread" finished-at="2022-08-29T18:52:31 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addThread -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:api_test.SimpleGetTest@47605f2f]" started-at="2022-08-29T18:52:31 EDT" name="openBrowser" finished-at="2022-08-29T18:52:31 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="getAllUsers()[pri:0, instance:api_test.SimpleGetTest@47605f2f]" started-at="2022-08-29T18:52:31 EDT" name="getAllUsers" finished-at="2022-08-29T18:52:32 EDT" duration-ms="956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllUsers -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:api_test.SimpleGetTest@47605f2f]" started-at="2022-08-29T18:52:32 EDT" name="closeBrowser" finished-at="2022-08-29T18:52:32 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- api_test.SimpleGetTest -->
       <class name="api_test.SimplePatchTest">
-        <test-method signature="UpdateNewUser()[pri:0, instance:api_test.SimplePatchTest@47605f2f]" started-at="2022-08-26T00:39:48 EDT" name="UpdateNewUser" finished-at="2022-08-26T00:39:49 EDT" duration-ms="417" status="PASS">
+        <test-method is-config="true" signature="addThread()[pri:0, instance:api_test.SimplePatchTest@1dd0e7c4]" started-at="2022-08-29T18:52:33 EDT" name="addThread" finished-at="2022-08-29T18:52:33 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addThread -->
+        <test-method signature="UpdateNewUser()[pri:0, instance:api_test.SimplePatchTest@1dd0e7c4]" started-at="2022-08-29T18:52:33 EDT" name="UpdateNewUser" finished-at="2022-08-29T18:52:34 EDT" duration-ms="485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateNewUser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:api_test.SimplePatchTest@1dd0e7c4]" started-at="2022-08-29T18:52:33 EDT" name="openBrowser" finished-at="2022-08-29T18:52:33 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:api_test.SimplePatchTest@1dd0e7c4]" started-at="2022-08-29T18:52:34 EDT" name="closeBrowser" finished-at="2022-08-29T18:52:34 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- api_test.SimplePatchTest -->
       <class name="api_test.SimplePutTest">
-        <test-method signature="UpdateNewUser()[pri:0, instance:api_test.SimplePutTest@2ece4966]" started-at="2022-08-26T00:39:49 EDT" name="UpdateNewUser" finished-at="2022-08-26T00:39:49 EDT" duration-ms="492" status="PASS">
+        <test-method is-config="true" signature="addThread()[pri:0, instance:api_test.SimplePutTest@7894f09b]" started-at="2022-08-29T18:52:34 EDT" name="addThread" finished-at="2022-08-29T18:52:34 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addThread -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:api_test.SimplePutTest@7894f09b]" started-at="2022-08-29T18:52:34 EDT" name="openBrowser" finished-at="2022-08-29T18:52:34 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="UpdateNewUser()[pri:0, instance:api_test.SimplePutTest@7894f09b]" started-at="2022-08-29T18:52:34 EDT" name="UpdateNewUser" finished-at="2022-08-29T18:52:34 EDT" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateNewUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:api_test.SimplePutTest@7894f09b]" started-at="2022-08-29T18:52:34 EDT" name="closeBrowser" finished-at="2022-08-29T18:52:34 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- api_test.SimplePutTest -->
       <class name="api_test.SimpleDeleteTest">
-        <test-method signature="deleteSingleUser()[pri:0, instance:api_test.SimpleDeleteTest@7894f09b]" started-at="2022-08-26T00:39:50 EDT" name="deleteSingleUser" finished-at="2022-08-26T00:39:50 EDT" duration-ms="349" status="PASS">
+        <test-method is-config="true" signature="addThread()[pri:0, instance:api_test.SimpleDeleteTest@3d484181]" started-at="2022-08-29T18:52:34 EDT" name="addThread" finished-at="2022-08-29T18:52:34 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addThread -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:api_test.SimpleDeleteTest@3d484181]" started-at="2022-08-29T18:52:34 EDT" name="openBrowser" finished-at="2022-08-29T18:52:34 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="deleteSingleUser()[pri:0, instance:api_test.SimpleDeleteTest@3d484181]" started-at="2022-08-29T18:52:34 EDT" name="deleteSingleUser" finished-at="2022-08-29T18:52:34 EDT" duration-ms="349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteSingleUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:api_test.SimpleDeleteTest@3d484181]" started-at="2022-08-29T18:52:34 EDT" name="closeBrowser" finished-at="2022-08-29T18:52:34 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- api_test.SimpleDeleteTest -->
       <class name="api_test.GetTestWithQueryParameter">
-        <test-method signature="getUsersWithQueryParameter()[pri:0, instance:api_test.GetTestWithQueryParameter@6111ba37]" started-at="2022-08-26T00:39:51 EDT" name="getUsersWithQueryParameter" finished-at="2022-08-26T00:39:51 EDT" duration-ms="433" status="PASS">
+        <test-method is-config="true" signature="addThread()[pri:0, instance:api_test.GetTestWithQueryParameter@7be58f16]" started-at="2022-08-29T18:52:35 EDT" name="addThread" finished-at="2022-08-29T18:52:35 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addThread -->
+        <test-method signature="getUsersWithQueryParameter()[pri:0, instance:api_test.GetTestWithQueryParameter@7be58f16]" started-at="2022-08-29T18:52:35 EDT" name="getUsersWithQueryParameter" finished-at="2022-08-29T18:52:35 EDT" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUsersWithQueryParameter -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:api_test.GetTestWithQueryParameter@7be58f16]" started-at="2022-08-29T18:52:35 EDT" name="openBrowser" finished-at="2022-08-29T18:52:35 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:api_test.GetTestWithQueryParameter@7be58f16]" started-at="2022-08-29T18:52:35 EDT" name="closeBrowser" finished-at="2022-08-29T18:52:35 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- api_test.GetTestWithQueryParameter -->
       <class name="api_test.GetWithPathVariable">
-        <test-method signature="attemptToGetUserWithInvalidId()[pri:0, instance:api_test.GetWithPathVariable@3d484181]" started-at="2022-08-26T00:39:50 EDT" name="attemptToGetUserWithInvalidId" finished-at="2022-08-26T00:39:51 EDT" duration-ms="409" status="PASS">
+        <test-method is-config="true" signature="addThread()[pri:0, instance:api_test.GetWithPathVariable@6111ba37]" started-at="2022-08-29T18:52:34 EDT" name="addThread" finished-at="2022-08-29T18:52:34 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addThread -->
+        <test-method signature="attemptToGetUserWithInvalidId()[pri:0, instance:api_test.GetWithPathVariable@6111ba37]" started-at="2022-08-29T18:52:34 EDT" name="attemptToGetUserWithInvalidId" finished-at="2022-08-29T18:52:35 EDT" duration-ms="361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attemptToGetUserWithInvalidId -->
-        <test-method signature="getSingleUser()[pri:0, instance:api_test.GetWithPathVariable@3d484181]" started-at="2022-08-26T00:39:51 EDT" name="getSingleUser" finished-at="2022-08-26T00:39:51 EDT" duration-ms="87" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:api_test.GetWithPathVariable@6111ba37]" started-at="2022-08-29T18:52:34 EDT" name="openBrowser" finished-at="2022-08-29T18:52:34 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:api_test.GetWithPathVariable@6111ba37]" started-at="2022-08-29T18:52:35 EDT" name="closeBrowser" finished-at="2022-08-29T18:52:35 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="getSingleUser()[pri:0, instance:api_test.GetWithPathVariable@6111ba37]" started-at="2022-08-29T18:52:35 EDT" name="getSingleUser" finished-at="2022-08-29T18:52:35 EDT" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSingleUser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:api_test.GetWithPathVariable@6111ba37]" started-at="2022-08-29T18:52:35 EDT" name="openBrowser" finished-at="2022-08-29T18:52:35 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:api_test.GetWithPathVariable@6111ba37]" started-at="2022-08-29T18:52:35 EDT" name="closeBrowser" finished-at="2022-08-29T18:52:35 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- api_test.GetWithPathVariable -->
     </test> <!-- APITest -->
   </suite> <!-- test_automation -->
